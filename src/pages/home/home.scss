@@ -1,0 +1,87 @@
+@import "src/shared/styles/colors";
+
+.home-container {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > .image {
+    position: absolute;
+    bottom: 0;
+    max-height: 50%;
+    max-width: 100%;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+  }
+
+  > .description {
+    display: flex;
+    flex-direction: column;
+    color: $light-font__color;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+
+    .text {
+      margin: 13% 20px 0;
+      text-align: center;
+    }
+
+    .name {
+      color: $yellow-font__color;
+      font-weight: 400;
+    }
+
+    .angleicon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 24px;
+      width: 45px;
+      height: 45px;
+      border: 2px solid $light-font__color;
+      border-radius: 50%;
+      color: $light-font__color;
+
+      > .icon {
+        width: 24px;
+        height: 24px;
+      }
+
+      &:hover {
+        border: 2px solid $yellow-font__color;
+        color: $yellow-font__color;
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: center;
+
+    > .image {
+      position: static;
+      display: block;
+      max-width: 68%;
+      max-height: 100%;
+    }
+
+    > .description {
+      min-width: 29%;
+      width: 25rem;
+      margin-left: 28px;
+      align-items: flex-start;
+
+      .text {
+        margin: 0;
+        text-align: left;
+      }
+    }
+  }
+}

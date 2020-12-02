@@ -1,0 +1,44 @@
+import React,{ useState } from 'react';
+import { IoMdClose } from 'react-icons/io';
+import { VscMenu } from 'react-icons/vsc';
+import './navbar.scss';
+import { Link } from 'react-scroll';
+
+export const NavBar = () => {
+  const [isRightNavOpen, setRightNavOpenValue] = useState(false);
+  const handleRightNav = () => setRightNavOpenValue(!isRightNavOpen);
+  const closeMobileMenu = () => setRightNavOpenValue(false);
+
+  return (
+  <nav className={isRightNavOpen ? "navbar-container active" : "navbar-container"}>
+    <div className="floatnav"></div>
+    <div className={isRightNavOpen ? "background active" : "background"} onClick={closeMobileMenu}></div>
+    <div className={isRightNavOpen ? "list active" : "list"}>
+      <div className="link menu" onClick={handleRightNav}>
+        {isRightNavOpen ? (
+          <IoMdClose className="icon" />
+        ) : (
+          <VscMenu className="icon" />
+        )}
+      </div>
+      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+        Home
+      </Link>
+      <Link className='link' activeClass="active" to="skills" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+        Skills
+      </Link>
+      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+        Experience
+      </Link>
+      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+        Portfolio
+      </Link>
+      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+        Education
+      </Link>
+      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+        Contact
+      </Link>
+    </div>
+  </nav>
+)}

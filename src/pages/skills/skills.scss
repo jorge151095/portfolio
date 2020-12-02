@@ -1,0 +1,30 @@
+@import "src/shared/styles/colors";
+
+.my-skills {
+  display: flex;
+  flex-direction: column;
+  background-color: #F5EFE1;
+
+  > .title {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: 300;
+    color: $dark-font__color;
+  }
+
+  > .list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: max-content;
+  }
+
+  @media (min-width: 1024px) {
+    align-items: center;
+
+    > .list {
+      max-width: 75%;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.skill-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  height: 60%;
+
+  > .icon {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 8px;
+
+    > * {
+      width: 50%;
+      max-width: 64px;
+      height: 100%;
+    }
+  }
+
+  > .label {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+  }
+
+  @media (min-width: 1024px) {
+    width: 25%;
+
+    > .icon {
+      height: 80%;
+    }
+  
+    > .label {
+      font-size: 14px;
+    }
+  }
+}
