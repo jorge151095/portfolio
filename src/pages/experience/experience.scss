@@ -1,0 +1,28 @@
+.experience-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f3f3f3;
+
+  > .brands {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  > .timelinebox {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+
+    .wrapper {
+      width: 95%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    > .timeline {
+      padding: 0 10%;
+    }
+  }
+}

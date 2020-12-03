@@ -27,7 +27,7 @@ export const NavBar = () => {
       <Link className='link' activeClass="active" to="skills" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
         Skills
       </Link>
-      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+      <Link className='link' activeClass="active" to="experience" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
         Experience
       </Link>
       <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>

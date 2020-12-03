@@ -1,14 +1,15 @@
-import { NavBar } from './components/navbar';
-import { Home, Skills } from './pages';
+import { NavBar } from './components';
+import { Home, Skills, Experience } from './pages';
 import './app.scss';
 
 function App() {
   return (
     <div>
       <NavBar />
-      <div className='main'>
+      <div>
         <Home />
         <Skills />
+        <Experience />
       </div>
     </div>
   );

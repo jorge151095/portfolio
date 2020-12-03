@@ -1,12 +1,15 @@
 # Personal Portfolio
-Web page developed by Jorge Antonio Hernández Guzmán
+Web page developed by Jorge Antonio Hernández Guzmán.
+
 Linkedin: https://www.linkedin.com/in/jorge-antonio-hernandez-guzman/
+
+Tools: React Js, react-icons, sass, styled-components.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+`yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
