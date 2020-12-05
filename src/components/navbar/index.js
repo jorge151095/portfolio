@@ -36,6 +36,9 @@ export const NavBar = () => {
       <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
         Education
       </Link>
+      <Link className='link' activeClass="active" to="about" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
+        About me
+      </Link>
       <Link className='link' activeClass="active" to="contact" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
         Contact
       </Link>

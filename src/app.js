@@ -1,5 +1,5 @@
 import { NavBar } from './components';
-import { Home, Skills, Experience, Contact } from './pages';
+import { Home, Skills, Experience, Contact, About } from './pages';
 import './app.scss';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <Home />
         <Skills />
         <Experience />
+        <About />
         <Contact />
       </div>
     </div>
