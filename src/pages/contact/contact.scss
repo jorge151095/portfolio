@@ -1,0 +1,110 @@
+@import "src/shared/styles/colors";
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #252934;
+  color: $white-font__color;
+  font-family: 'Lato';
+  
+  .title {
+    color: $white-font__color;
+  }
+
+  .autor {
+    width: 100%;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    min-height: 33px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    .year {
+      color: $yellow-font__color;
+      padding-right: 5px;
+    }
+  }
+
+  .regards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 24px;
+    font-size: 16px;
+  }
+
+  > .data {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 48px 0 72px;
+
+    > .info {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 24px;
+  
+      > .name {
+        font-size: 16px;
+        margin-bottom: 12px;
+      }
+  
+      > .link {
+        color: $yellow-font__color;
+        text-decoration: none;
+        font-size: 13px;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      > .socialmedia {
+        font-size: 24px;
+        display: flex;
+
+        > .medialink {
+          color: $white-font__color;
+          text-decoration: none;
+        }
+
+        > * {
+          margin-right: 12px;
+        } 
+      }
+    }
+  }
+  
+
+  @media (min-width: 1024px) {
+    > .autor {
+      font-size: 13px;
+    }
+
+    > .regards {
+      font-size: 20px;
+    }
+
+    > .data {
+      flex-direction: row;
+      justify-content: space-between;
+
+      > .info {
+        width: 27%;
+        margin: 0;
+  
+        > .name {
+          font-size: 18px;
+        }
+  
+        > .link {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

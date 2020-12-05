@@ -21,22 +21,22 @@ export const NavBar = () => {
           <VscMenu className="icon" />
         )}
       </div>
-      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
         Home
       </Link>
-      <Link className='link' activeClass="active" to="skills" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+      <Link className='link' activeClass="active" to="skills" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
         Skills
       </Link>
-      <Link className='link' activeClass="active" to="experience" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+      <Link className='link' activeClass="active" to="experience" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
         Experience
       </Link>
-      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
         Portfolio
       </Link>
-      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
         Education
       </Link>
-      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={500} onClick={closeMobileMenu}>
+      <Link className='link' activeClass="active" to="contact" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
         Contact
       </Link>
     </div>
