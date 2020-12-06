@@ -1,22 +1,40 @@
+@import "src/shared/styles/colors";
+
 .about-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Lato';
-  margin-bottom: 4.5rem;
+  background-color: $cream-background__color;
+  padding-bottom: 4.5rem;
 
   > .about {
     width: 80%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     > .text {
-      > .description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
 
+      > .description p {
+        font-size: 13px;
       }
       
       > .link {
-  
+        width: 100%;
+
+        > * {
+          color: $dark-background__color;
+          font-size: 28px;
+        }
+
+        &:hover > * {
+          color: #0d7eec;
+        }
       }
     }
     
@@ -26,6 +44,15 @@
   @media (min-width: 1024px) {
     > .about {
       flex-direction: row;
+      padding: 0;
+
+      > .text {
+        padding-left: 7%;
+
+        > .description p {
+          font-size: 15px;
+        }
+      }
     }
   }
 }
