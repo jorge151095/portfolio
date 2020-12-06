@@ -33,7 +33,7 @@ export const NavBar = () => {
       <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
         Portfolio
       </Link>
-      <Link className='link' activeClass="active" to="home" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
+      <Link className='link' activeClass="active" to="education" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>
         Education
       </Link>
       <Link className='link' activeClass="active" to="about" smooth={true} offset={-60} duration={800} onClick={closeMobileMenu}>

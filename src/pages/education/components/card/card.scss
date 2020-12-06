@@ -1,0 +1,51 @@
+
+.card-wrapper {
+  font-family: 'Lato';
+  display: flex;
+  padding: 24px 10% 0;
+
+  > .icon {
+    width: 56px;
+    height: 56px;
+    padding-top: 5px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  > .data {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    line-height: 1.5;
+    border-bottom: 1px solid #ccd1d5;
+    padding-bottom: 24px;
+    width: 100%;
+
+    > .name {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    > .institution, > .date {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    > .id {
+      font-size: 14px;
+      color: #00000099;
+      margin: 0;
+      word-break: break-word;
+    }
+
+    > .link {
+      font-size: 14px;
+      color: #00000099;
+      font-weight: bold;
+      margin: 8px 0 0;
+    }
+  }
+}

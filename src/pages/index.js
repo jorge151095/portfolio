@@ -3,5 +3,6 @@ import { Skills } from './skills';
 import { Experience } from './experience';
 import { Contact } from './contact';
 import { About } from './about';
+import { Education } from './education';
 
-export { Home, Skills, Experience, Contact, About };
+export { Home, Skills, Experience, Contact, About, Education };

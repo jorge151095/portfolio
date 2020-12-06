@@ -1,0 +1,28 @@
+@import "src/shared/styles/colors";
+
+.education-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: $cream-background__color;
+  padding-bottom: 4.5rem;
+
+  > .cards {
+    display: flex;
+    flex-direction: column;
+
+    > .column {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    > .cards {
+      display: flex;
+      flex-direction: row;
+
+      > .column {
+        width: 50%;
+      }
+    }
+  }
+}
