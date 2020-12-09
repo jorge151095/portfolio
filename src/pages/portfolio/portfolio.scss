@@ -1,0 +1,23 @@
+@import "src/shared/styles/colors";
+
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $dark-background__color;
+  color: $white-font__color;
+  font-family: 'Lato';
+
+  > .title {
+    color: $white-font__color;
+  }
+
+  > .projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10% 4.5rem 10%;
+    width: 100%;
+    max-width: 1400px;
+  }
+}

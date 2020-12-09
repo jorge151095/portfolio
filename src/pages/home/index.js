@@ -1,7 +1,7 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import { Link } from 'react-scroll';
-import profileImage from './../../assets/images/main-profile.jpg'; 
+import profileImage from './../../assets/images/main-profile.png'; 
 import { FaAngleDown } from 'react-icons/fa';
 import './home.scss';
 
