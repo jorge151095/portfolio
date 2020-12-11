@@ -14,7 +14,20 @@
   }
 
   > .name {
+    display: flex;
+    align-items: center;
     margin-top: 0;
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-bottom: 2rem;
+
+     > .link {
+      display: flex;
+      color: $dark-background__color;
+      font-size: 25px;
+      margin: 0 1rem;
+    }
   }
 
   > .btnwrapper {
@@ -36,7 +49,50 @@
       }
   }
 
-  .description {
-    margin: 1rem 0;
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+
+    .tag {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 400;
+      background: #026ec5;
+      float: left;
+      padding: 5px 10px;
+      border-radius: 10em;
+      margin: 5px;
+      height: min-content;
+      width: max-content;
+    }
   }
+
+  .description {
+    margin: 8px 0;
+    font-size: 13px;
+  }
+
+  @media (min-width: 1024px) { 
+    padding: 48px;
+
+    > .close {
+      top: 48px;
+      right: 48px;
+    }
+
+    > .name {
+      font-size: 25px;
+    }
+
+    .description {
+      margin: 1rem 0;
+      font-size: 15px;
+    }
+  }
+}
+
+.carousel.carousel-slider .control-arrow {
+  background-color: #000 !important; 
 }
