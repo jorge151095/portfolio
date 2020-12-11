@@ -36,11 +36,11 @@ export const Education = () => {
             institution="Data Camp"
             date="Jun 2020 - No Expiration Date"
             id="a04d394e4c1e3cf4bb74a92ce1764ab1c7b7f5fb"
-            link="http://ude.my/UC-9d93c979-d845-4844-92ea-fccbd06da0d1"/>
+            link="https://www.datacamp.com/statement-of-accomplishment/course/a04d394e4c1e3cf4bb74a92ce1764ab1c7b7f5fb"/>
           <Card 
             icon={acamicaIcon}
             name="Programación Funcional"
-            institution="Data Camp"
+            institution="Acamica"
             date="Jun 2020 - No Expiration Date"
             id="5664a16e1cc386a2ca54caaa0178a9a11d1b9d90"
             link="https://globant.acamica.com/cert/5664a16e1cc386a2ca54caaa0178a9a11d1b9d90"/>
