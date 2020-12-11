@@ -3,7 +3,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { FiExternalLink } from 'react-icons/fi';
 import './modal-wrapper.scss';
 import { Carousel } from 'react-responsive-carousel';
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 export const  ModalWrapper = ({onCloseEvent, title, content, images, tags, link}) => {
   const getImage = (image) => {
