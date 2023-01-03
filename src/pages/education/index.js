@@ -18,6 +18,30 @@ export const Education = () => {
         <div className="column">
           <Card icon={uaemexIcon} name="Universidad Autónoma del Estado de México" institution="Computer Science Engineering" id="2013-2017"/>
           <Card 
+            icon={udemyIcon}
+            name="The Complete Developers Guide to MongoDB"
+            institution="Udemy"
+            id="UC-2636355b-84b0-4c48-b227-d2c6c147b03d"
+            link="https://www.udemy.com/certificate/UC-2636355b-84b0-4c48-b227-d2c6c147b03d/"/>
+          <Card 
+            icon={udemyIcon}
+            name="Blockchain A-Z™: Learn How To Build Your First Blockchain"
+            institution="Udemy"
+            id="UC-7cf4cd21-27c0-4705-a199-761ce3c55c86"
+            link="https://www.udemy.com/certificate/UC-7cf4cd21-27c0-4705-a199-761ce3c55c86/"/>
+          <Card 
+            icon={acamicaIcon}
+            name="Asincronismo en Javascript"
+            institution="Acamica"
+            id="5c2148b95f4ca7c9d468e322ba19d81e5dd7d99a"
+            link="https://globant.acamica.com/cert/5c2148b95f4ca7c9d468e322ba19d81e5dd7d99a"/>
+          <Card 
+            icon={platziIcon}
+            name="Advanced English Conversation Course"
+            institution="Platzi"
+            id="Credential ID f43e02b1-122a-4a3c-9a6a-60ba3981b29f"
+            link="https://platzi.com/p/jorgeHG/curso/2020-conversacion-avanzado/diploma/detalle/"/>
+          <Card 
             icon={platziIcon}
             name="React Js Avanzado"
             institution="Platzi"
@@ -30,6 +54,9 @@ export const Education = () => {
             date="Jun 2020 - No Expiration Date"
             id="UC-9d93c979-d845-4844-92ea-fccbd06da0d1"
             link="http://ude.my/UC-9d93c979-d845-4844-92ea-fccbd06da0d1"/>
+          
+        </div>
+        <div className="column">
           <Card 
             icon={datacampIcon}
             name="Intermediate Python"
@@ -44,8 +71,6 @@ export const Education = () => {
             date="Jun 2020 - No Expiration Date"
             id="5664a16e1cc386a2ca54caaa0178a9a11d1b9d90"
             link="https://globant.acamica.com/cert/5664a16e1cc386a2ca54caaa0178a9a11d1b9d90"/>
-        </div>
-        <div className="column">
           <Card 
             icon={udemyIcon}
             name="Angular: De cero a experto creando aplicaciones (Angular 8+)"

@@ -21,14 +21,14 @@
     }
   }
 
-  > .first {
-    padding-bottom: 24px;
+  > .with-padding {
+    padding-bottom: 36px;
   }
   
   @media (min-width: 1024px) {
     flex-direction: row;
 
-    > .first {
+    > .with-padding {
       padding: 0;
     }
   }

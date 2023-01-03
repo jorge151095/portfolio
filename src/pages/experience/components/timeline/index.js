@@ -7,12 +7,31 @@ export const Timeline = () => {
       <div className="timeline">
         <div className="container left">
           <div className="content">
+            <h2 className="role">Co-Founder</h2>
+            <h3 className="company">Acá entre devs</h3>
+            <p className="description">Creating content about computer science, programming, software development, work-life balance, and topics related to the IT area.
+            </p>
+            <p className="date">Oct 2022  – Present</p>
+          </div>
+        </div>
+        <div className="container right">
+          <div className="content">
+            <h2 className="role">Frontend Engineer</h2>
+            <h3 className="company">AgileEngine</h3>
+            <p className="description">Implement accessibility solutions at indeed.com with 250 million unique visitors each month.
+              Following the Web Content Accessibility Guidelines (WCAG) in order to allow the widest possible audience of users with different levels of technological endowment and sensory capacity, to access the online services of the company.
+            </p>
+            <p className="date">Jul 2021 – Present</p>
+          </div>
+        </div>
+        <div className="container left">
+          <div className="content">
             <h2 className="role">Web UI Developer</h2>
             <h3 className="company">Globant</h3>
             <p className="description">Design and develop web apps to differents clients as <b>Dell</b> and <b>Atria Wealth Solutions</b> (https://www.atriawealth.com).
               Work with global teams, propose software architecture, get in touch with new AI technologies, develop systems from scratch, propose UI solutions, build quality code using best code practices and high unit test coverage.
             </p>
-            <p className="date">Feb 2020 – Present</p>
+            <p className="date">Feb 2020 – Jul 2021</p>
           </div>
         </div>
         <div className="container right">
@@ -24,7 +43,7 @@ export const Timeline = () => {
               Design UX/UI, improve user experience. 
               Update project to new tools and FE/BE frameworks as well as integrate CI/CD in microsoft azure.
             </p>
-            <p className="date">Jan 2017 – Present</p>  
+            <p className="date">Jan 2017 – Apr 2021</p>  
           </div>
         </div>
         <div className="container left">

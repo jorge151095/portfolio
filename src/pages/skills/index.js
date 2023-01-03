@@ -21,20 +21,20 @@ export const Skills = () => {
         <div className="column">
           <ProgressBar title="JavaScript" level="90"/>
           <ProgressBar title="CSS 3" level="90"/>
-          <ProgressBar title="TypeScript" level="85"/>
+          <ProgressBar title="TypeScript" level="90"/>
           <ProgressBar title="Agile Methodologies" level="90"/>
         </div>
         <div className="column">
           <ProgressBar title="Html 5" level="90"/>
-          <ProgressBar title="Angular 2+" level="90"/>
+          <ProgressBar title="React Js" level="90"/>
           <ProgressBar title="Python" level="45"/>
-          <ProgressBar title="UI Design" level="50"/>
+          <ProgressBar title="UI Design" level="70"/>
         </div>
         <div className="column">
-          <ProgressBar title="React Js" level="60"/>
-          <ProgressBar title="Node Js" level="45"/>
-          <ProgressBar title="Unit Testing" level="85"/>
-          <ProgressBar title=".NET Core 2" level="45"/>
+          <ProgressBar title="Angular 2+" level="70"/>
+          <ProgressBar title="Node Js" level="60"/>
+          <ProgressBar title="Unit Testing" level="90"/>
+          <ProgressBar title="Integration testing" level="70"/>
         </div>
       </span>
     </Element>

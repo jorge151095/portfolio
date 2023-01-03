@@ -3,11 +3,12 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { FiExternalLink } from 'react-icons/fi';
 import './modal-wrapper.scss';
 import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export const  ModalWrapper = ({onCloseEvent, title, content, images, tags, link}) => {
-  const getImage = (image) => {
-    return  <img key={image} src={require(`./../../../../assets/images/${image}`).default} alt=""/>
+  const getImage = (image, index) => {
+    console.log(image)
+    return  <img key={`${image}-${index}`} src={require(`./../../../../assets/images/${image}`)} alt=""/>
  }
   return (
     <div className="modal-wrapper">
@@ -17,8 +18,8 @@ export const  ModalWrapper = ({onCloseEvent, title, content, images, tags, link}
       <div className="close" onClick={onCloseEvent}><AiOutlineClose/></div>
       <Carousel>
         {
-          images.map((imageUrl) => 
-            getImage(imageUrl)
+          images.map((imageUrl, index) => 
+            getImage(imageUrl, index)
           )
         }
       </Carousel>
